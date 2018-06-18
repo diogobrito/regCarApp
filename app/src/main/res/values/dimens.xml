@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+    <dimen name="tamanho_titulo">43sp</dimen>
+    <dimen name="largura_icone_splash">410dp</dimen>
+    <dimen name="altura_icone_splash">410dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin2">30dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

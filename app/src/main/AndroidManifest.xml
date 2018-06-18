@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.regcar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/login_image"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/login_image"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="br.com.fiap.regcar.LoginActivity" />
+        <activity
+            android:name="br.com.fiap.regcar.SplashScreen"
+            android:theme="@style/Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.com.fiap.regcar.CriarLoginActivity" />
+        <activity android:name="br.com.fiap.regcar.ListarCarrosActivity" />
+        <activity
+            android:name="br.com.fiap.regcar.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="br.com.fiap.regcar.AddCarActivity"
+            android:label="@string/title_activity_add_car"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="br.com.fiap.regcar.TesteaActivity"
+            android:label="@string/title_activity_testea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="br.com.fiap.regcar.EditCarActivity"
+            android:label="@string/title_activity_edit_car"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="br.com.fiap.regcar.AltCarActivity"
+            android:label="@string/title_activity_alt_car"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="br.com.fiap.regcar.SobreActivity"
+            android:label="Sobre o Aplicativo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>
